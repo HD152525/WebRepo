@@ -8,18 +8,18 @@
 function greeting(nation)
 {
 	if(nation=='K'){
-		document.getElementByld("result").innerHTML = "안녕하세요.";
+		document.getElementById("result").innerHTML = "안녕하세요.";
 	
 	}
 	else if(nation=='A'){
-		document.getElementByld("result").innerHTML = "Hello.";
+		document.getElementById("result").innerHTML = "Hello.";
 	
 	}
 	else{
-		document.getElementByld("result").innerHTML = "니 하오";
+		document.getElementById("result").innerHTML = "니 하오";
 	}
 	console.log("greeting end");
-	console.log(document.getElementByld("result"));
+	console.log(document.getElementById("result"));
 	}
 
 
@@ -28,9 +28,9 @@ function greeting(nation)
 <body>
 <p>각 나라의 인사말</p>
 <br>
-<input type = "button" onclick = "greeting(K)" value="한국">
-<input type = "button" onclick = "greeting(A)" value="미국">
-<input type = "button" onclick = "greeting(C)" value="중국">
+<input type = "button" onclick = "greeting('K')" value="한국">
+<input type = "button" onclick = "greeting('A')" value="미국">
+<input type = "button" onclick = "greeting('C')" value="중국">
 <p id="result"></p>
 </body>
 </html>

@@ -1,0 +1,22 @@
+@CHARSET "utf-8";
+.container{
+	padding-top : 30px;
+	text-align:center;
+	color:green;
+}
+.container2{
+	margin : 120px;
+	text-align:center;
+	color:red;
+}
+.textblank{
+	margin : 120px;
+}
+.textbold{
+	margin : 120px;
+	font-weight: bold;
+}
+img{
+	display : inline;
+}
+
